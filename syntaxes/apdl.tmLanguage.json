@@ -83,7 +83,7 @@
 
     "variable_parameter": {
       "name": "variable.parameter.apdl",
-      "match": "\\b(?i)(elem|node|ename|s|u|r|a|mnloc|mxloc|mat|real|type|pres|forc|defa|all|none|stat|inve)\\b"
+      "match": "\\b(?i)(elem|node|ename|s|u|r|a|mnloc|mxloc|mat|real|type|pres|forc|defa|all|none|stat|inve|incore|outofcore)\\b"
     },
 
     "comment_line": {
@@ -214,7 +214,7 @@
 
     "keywords_new": {
       "name": "keyword.new.apdl",
-      "match": "^\\s*(?i)(bcsoption|debug|/gcolumn|sload)\\b"
+      "match": "^\\s*(?i)(bcsoption|dspoption|debug|/gcolumn|sload)\\b"
     },
 
     "keywords_control": {
