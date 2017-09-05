@@ -244,7 +244,7 @@
 
     "macros_private": {
       "name": "support.function.apdl",
-      "match": "^\\s*(?i)(abs|absm|ac0|ac1|anno4modified|arsort|auan|avg|baPlot|bdPlot|bnode|cdir|cg|chPath|chr2sec|co2real|conts|cp7|ctlot|cValues|di74sm|di78all|di78sm|dls|dp|ec0|ec1|elemInfo|epll|esn|esna|estt|fknplot|federn|inq|isBatch|ifExists|laPlot|lini|matPlot|nmisc1|no0|nodeInfo|nslm|pl7sm|plotFKN|plotFy|plotMat|plotsm|prt|r2sec|rfcum|rsfcum|rlot|rProc|selGeneral|sena|senr|sens|senu|sshell|smisc1|solids|solFy|sosh|surfs|sread|sset|sub2t|targe|tlot|wpn|wpy|Xep|Xplo|prEtyp|cpEtyp|nMid|nAvg|plDefa|schraub931)\\b"
+      "match": "^\\s*(?i)(abs|absm|ac0|ac1|anno4modified|arsort|auan|avg|baPlot|bdPlot|bnode|bqsum|cdir|cg|chPath|chr2sec|co2real|conts|cp7|ctlot|cValues|di74sm|di78all|di78sm|dls|dp|ec0|ec1|elemInfo|epll|esn|esna|estt|fknplot|federn|inq|isBatch|ifExists|laPlot|lini|matPlot|nmisc1|no0|nodeInfo|nslm|pl7sm|plotFKN|plotFy|plotMat|plotsm|prt|r2sec|rfcum|rsfcum|rlot|rProc|selGeneral|sena|senr|sens|senu|sshell|smisc1|solids|solFy|sosh|surfs|sread|sset|sub2t|targe|tlot|wpn|wpy|Xep|Xplo|prEtyp|cpEtyp|nMid|nAvg|plDefa|schraub931)\\b"
     },
 
     "keywords_abbreviation": {
@@ -274,7 +274,7 @@
 
     "arguments_custom": {
       "name": "storage.custom.apdl",
-      "match": "\\b(?i)(joblk\\d|jst\\d|jobset|arg\\d)\\b"
+      "match": "\\b(?i)(joblk\\d|jst\\d|jobset|arg\\d|ar\\d)\\b"
     },
 
     "eof": {
