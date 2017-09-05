@@ -274,7 +274,7 @@
 
     "arguments_custom": {
       "name": "storage.custom.apdl",
-      "match": "\\b(?i)(joblk\\d|jst\\d|jobset|arg\\d|ar\\d)\\b"
+      "match": "\\b(?i)(joblk\\d|jst\\d|jobset|arg\\d|ar\\d+)\\b"
     },
 
     "eof": {
