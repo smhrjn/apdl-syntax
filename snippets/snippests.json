@@ -1,0 +1,76 @@
+{
+  "do loop": {
+    "prefix": "do",
+    "body": ["*do, ${1: index}, ${2: start}, ${3: end}", "\t$0", "*enddo"],
+    "description": "Do Loop"
+  },
+  "if Condition": {
+    "prefix": "if",
+    "body": [
+      "*if, ${1: index}, ${2: start}, ${3: end}, then",
+      "\t$0",
+      "*endif"
+    ],
+    "description": "Do Loop"
+  },
+  "number of selected elements": {
+    "prefix": "eanz",
+    "body": "*get, eanz, elem, , count"
+  },
+  "min element number": {
+    "prefix": "emin",
+    "body": "*get, emin, elem, , num, min"
+  },
+  "max element number": {
+    "prefix": "emax",
+    "body": "*get, emax, elem, , num, max"
+  },
+  "max defined element number": {
+    "prefix": "emaxd",
+    "body": "*get, emaxd, elem, , num, maxd"
+  },
+  "number of selected nodes": {
+    "prefix": "nanz",
+    "body": "*get, nanz, node, , count"
+  },
+  "min node number": {
+    "prefix": "nmin",
+    "body": "*get, nmin, node, , num, min"
+  },
+  "max node number": {
+    "prefix": "nmax",
+    "body": "*get, nmax, node, , num, max"
+  },
+  "max defined node number": {
+    "prefix": "nmaxd",
+    "body": "*get, nmaxd, node, , num, maxd"
+  },
+  "min x value for node": {
+    "prefix": "xmin",
+    "body": "*get, xmin, node, , mnloc, x"
+  },
+  "max x value for node": {
+    "prefix": "xmax",
+    "body": "*get, xmax, node, , mxloc, x"
+  },
+  "min y value for node": {
+    "prefix": "ymin",
+    "body": "*get, ymin, node, , mnloc, y"
+  },
+  "max y value for node": {
+    "prefix": "ymax",
+    "body": "*get, ymax, node, , mxloc, y"
+  },
+  "min z value for node": {
+    "prefix": "zmin",
+    "body": "*get, zmin, node, , mnloc, z"
+  },
+  "max z value for node": {
+    "prefix": "zmax",
+    "body": "*get, zmax, node, , mxloc, z"
+  },
+  "jobname": {
+    "prefix": "jname",
+    "body": "*get, jname, active, , jobnam"
+  }
+}

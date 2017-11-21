@@ -23,6 +23,12 @@
         "scopeName": "source.apdl",
         "path": "./syntaxes/apdl.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      {
+        "language": "apdl",
+        "path": "./snippets/snippets.json"
+      }
     ]
   }
 }
