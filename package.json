@@ -2,13 +2,13 @@
   "name": "ansys-apdl-syntax",
   "displayName": "ansys-apdl-syntax",
   "description": "syntax highlighting for ansys apdl",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "publisher": "smhrjn",
   "engines": {
-    "vscode": "^1.13.0"
+    "vscode": "^1.14.0"
   },
   "repository": "github",
-  "categories": ["Languages"],
+  "categories": ["Programming Languages"],
   "contributes": {
     "languages": [{
       "id": "apdl",
