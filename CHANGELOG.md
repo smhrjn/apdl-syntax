@@ -1,7 +1,17 @@
 # Change Log
-All notable changes to the "ansys-apdl-syntax" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+[Keep a Changelog](http://keepachangelog.com)
 
-## [Unreleased]
-- Initial release
+## Initial release
+
+- includes basic commands
+- includes custom macros
+
+## 1.14.0
+
+- readme more descriptive
+- file extensions added
+
+## 1.15.0
+
+- logo and screenshot added
