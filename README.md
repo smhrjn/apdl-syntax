@@ -6,7 +6,7 @@
 - consists numerous personal macros and customized for personal use.
 - region and endregion used for folding blocks.
 
-![screenshot](.\images\shot.png)
+![screenshot](images/shot.png)
 
 ## supported file exteinsion
 
