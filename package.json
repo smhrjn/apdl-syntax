@@ -2,7 +2,7 @@
   "name": "ansys-apdl-syntax",
   "displayName": "ansys-apdl-syntax",
   "description": "syntax highlighting for ansys apdl",
-  "version": "0.0.15",
+  "version": "0.1.0",
   "publisher": "smhrjn",
   "engines": {
     "vscode": "^1.14.0"
@@ -12,22 +12,43 @@
     "type": "git",
     "url": "https://github.com/smhrjn/apdl-syntax"
   },
-  "categories": ["Programming Languages"],
+  "categories": [
+    "Programming Languages"
+  ],
   "contributes": {
-    "languages": [{
-      "id": "apdl",
-      "aliases": ["ansys", "apdl"],
-      "extensions": [".in", ".out", ".inp", ".mac", ".ans", ".csv", ".apdl.txt", "apdl", "ansys"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "apdl",
-      "scopeName": "source.apdl",
-      "path": "./syntaxes/apdl.tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "apdl",
-      "path": "./snippets/apdl.json"
-    }]
+    "languages": [
+      {
+        "id": "apdl",
+        "aliases": [
+          "ansys",
+          "apdl"
+        ],
+        "extensions": [
+          ".in",
+          ".out",
+          ".inp",
+          ".mac",
+          ".ans",
+          ".csv",
+          ".apdl.txt",
+          "apdl",
+          "ansys"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "apdl",
+        "scopeName": "source.apdl",
+        "path": "./syntaxes/apdl.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "apdl",
+        "path": "./snippets/apdl.json"
+      }
+    ]
   }
 }
