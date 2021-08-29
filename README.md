@@ -15,7 +15,6 @@
 - .inp
 - .ans
 - .out
-- .csv (may be unfavourable for most users)
 - .ansys
 - .apdl.txt
 - .apdl
