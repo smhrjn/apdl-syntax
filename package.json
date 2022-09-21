@@ -2,7 +2,7 @@
   "name": "ansys-apdl-syntax",
   "displayName": "ansys-apdl-syntax",
   "description": "syntax highlighting for ansys apdl",
-  "version": "0.2.2",
+  "version": "0.2.5",
   "publisher": "smhrjn",
   "engines": {
     "vscode": "^1.14.0"
@@ -49,5 +49,8 @@
         "path": "./snippets/apdl.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.11.0"
   }
 }
